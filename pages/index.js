@@ -4,7 +4,7 @@ import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "@/components/BlogCard";
 
 const graphcms = new GraphQLClient(
-  "https://api-ap-south-1.hygraph.com/v2/clf439pem4l9701t510c770n7/master"
+  "https://ap-south-1.cdn.hygraph.com/content/clf439pem4l9701t510c770n7/master"
 );
 
 const QUERY = gql`
